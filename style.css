@@ -13,7 +13,7 @@ header {
     font-size: 1.5em;
 }
 
-.about, .services {
+.about, .services, .registro {
     margin: 20px;
     padding: 20px;
     background-color: #1E1E1E;
@@ -25,4 +25,31 @@ footer {
     background-color: #00A8E8;
     padding: 10px;
     margin-top: 20px;
+}
+
+.registro input {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.registro button {
+    background-color: #00A8E8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registro button:hover {
+    background-color: #0077B6;
+}
+
+#mensaje-registro {
+    margin-top: 10px;
+    font-size: 0.9em;
 }
