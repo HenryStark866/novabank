@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #00A8E8;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+.about, .services {
+    margin: 20px;
+    padding: 20px;
+    background-color: #1E1E1E;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 168, 232, 0.5);
+}
+
+footer {
+    background-color: #00A8E8;
+    padding: 10px;
+    margin-top: 20px;
+}
